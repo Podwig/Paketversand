@@ -53,7 +53,7 @@ namespace Paketversand
             {
                 iSumme = iBreite + iMaterialstaerke;
             }
-            Console.WriteLine(iSumme); 
+            Console.WriteLine(iSumme + "cm"); 
 
             //Don´t Close
             Console.ReadLine();
