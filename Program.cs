@@ -42,6 +42,18 @@ namespace Paketversand
             //------------------Aufgabe4-------------------------
             dMasse = iBreite * iLaenge * iMaterialstaerke * dDichte; //kg
             Console.WriteLine("Die Masse betraegt:" + dMasse + "kg");
+                  
+            //------------------Aufgabe5-------------------------
+            Int32 iSumme;
+            if (iLaenge > iBreite) ;
+            {
+                iSumme = iLaenge + iMaterialstaerke;
+            }
+            else
+            {
+                iSumme = iBreite + iMaterialstaerke;
+            }
+            Console.WriteLine(iSumme); 
 
             //Don´t Close
             Console.ReadLine();
