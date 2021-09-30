@@ -45,7 +45,7 @@ namespace Paketversand
                   
             //------------------Aufgabe5-------------------------
             Int32 iSumme;
-            if (iLaenge > iBreite);
+            if (iLaenge > iBreite)
             {
                 iSumme = iLaenge + iMaterialstaerke;
             }
