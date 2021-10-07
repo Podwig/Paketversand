@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,7 +35,7 @@ namespace Paketversand
             Console.Write("Bitte geben Sie die Breite in cm ein:");
             iBreite = Convert.ToInt32(Console.ReadLine());
 
-            //------------------Aufgabe3---------------------------
+            //------------------Aufgabe3-------------------------
             Console.Write("Die Masze sind(Ixbxh):");
             Console.WriteLine(iLaenge + "x" + iBreite + "x" + iMaterialstaerke);
 
@@ -53,7 +53,29 @@ namespace Paketversand
             {
                 iSumme = iBreite + iMaterialstaerke;
             }
-            Console.WriteLine(iSumme + "cm"); 
+            Console.WriteLine(iSumme + "cm");
+
+            //------------------Aufgabe6-------------------------
+            if(iSumme<=37)
+            {
+                Console.WriteLine("Ihr Paket kostet 3,60€");
+            }
+            else if(iSumme<=50)
+            {
+                Console.WriteLine("Ihr Paket kostet 4,30€");
+            }
+            else if(iSumme<=80)
+            {
+                Console.WriteLine("Ihr Paket kostet 5,25€");
+            }
+            else if(iSumme<=120)
+            {
+                Console.WriteLine("Ihr Paket kostet 10,15€");
+            }
+            else
+            {
+                Console.WriteLine("Ihr Paket ist zu groß")
+            }
 
             //Don´t Close
             Console.ReadLine();
