@@ -58,23 +58,23 @@ namespace Paketversand
             //------------------Aufgabe6-------------------------
             if(iSumme<=37)
             {
-                Console.WriteLine("Ihr Paket kostet 3,60€");
+                Console.WriteLine("Ihr Paket kostet 3,60 Euro");
             }
             else if(iSumme<=50)
             {
-                Console.WriteLine("Ihr Paket kostet 4,30€");
+                Console.WriteLine("Ihr Paket kostet 4,30 Euro");
             }
             else if(iSumme<=80)
             {
-                Console.WriteLine("Ihr Paket kostet 5,25€");
+                Console.WriteLine("Ihr Paket kostet 5,25 Euro");
             }
             else if(iSumme<=120)
             {
-                Console.WriteLine("Ihr Paket kostet 10,15€");
+                Console.WriteLine("Ihr Paket kostet 10,15 Euro");
             }
             else
             {
-                Console.WriteLine("Ihr Paket ist zu groß")
+                Console.WriteLine("Ihr Paket ist zu groß");
             }
 
             //Don´t Close
